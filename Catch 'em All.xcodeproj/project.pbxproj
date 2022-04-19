@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		2B1D6B32280EE5FD005E6306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D6B31280EE5FD005E6306 /* AppDelegate.swift */; };
 		2B1D6B34280EE5FD005E6306 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D6B33280EE5FD005E6306 /* SceneDelegate.swift */; };
-		2B1D6B36280EE5FD005E6306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D6B35280EE5FD005E6306 /* ViewController.swift */; };
+		2B1D6B36280EE5FD005E6306 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D6B35280EE5FD005E6306 /* ListViewController.swift */; };
 		2B1D6B39280EE5FD005E6306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D6B37280EE5FD005E6306 /* Main.storyboard */; };
 		2B1D6B3B280EE5FF005E6306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D6B3A280EE5FF005E6306 /* Assets.xcassets */; };
 		2B1D6B3E280EE5FF005E6306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B1D6B3C280EE5FF005E6306 /* LaunchScreen.storyboard */; };
+		2B1D6B46280EEDC6005E6306 /* Creatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D6B45280EEDC5005E6306 /* Creatures.swift */; };
+		2B1D6B48280F352D005E6306 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D6B47280F352D005E6306 /* DetailViewController.swift */; };
+		2B1D6B4A280F3A8B005E6306 /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D6B49280F3A8B005E6306 /* Creature.swift */; };
+		2B1D6B4C280F4297005E6306 /* CreatureDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D6B4B280F4297005E6306 /* CreatureDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2B1D6B2E280EE5FD005E6306 /* Catch 'em All.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catch 'em All.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1D6B31280EE5FD005E6306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B1D6B33280EE5FD005E6306 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2B1D6B35280EE5FD005E6306 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B1D6B35280EE5FD005E6306 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		2B1D6B38280EE5FD005E6306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B1D6B3A280EE5FF005E6306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B1D6B3D280EE5FF005E6306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B1D6B3F280EE5FF005E6306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B1D6B45280EEDC5005E6306 /* Creatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creatures.swift; sourceTree = "<group>"; };
+		2B1D6B47280F352D005E6306 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2B1D6B49280F3A8B005E6306 /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		2B1D6B4B280F4297005E6306 /* CreatureDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				2B1D6B31280EE5FD005E6306 /* AppDelegate.swift */,
 				2B1D6B33280EE5FD005E6306 /* SceneDelegate.swift */,
-				2B1D6B35280EE5FD005E6306 /* ViewController.swift */,
+				2B1D6B49280F3A8B005E6306 /* Creature.swift */,
+				2B1D6B45280EEDC5005E6306 /* Creatures.swift */,
+				2B1D6B4B280F4297005E6306 /* CreatureDetail.swift */,
+				2B1D6B35280EE5FD005E6306 /* ListViewController.swift */,
+				2B1D6B47280F352D005E6306 /* DetailViewController.swift */,
 				2B1D6B37280EE5FD005E6306 /* Main.storyboard */,
 				2B1D6B3A280EE5FF005E6306 /* Assets.xcassets */,
 				2B1D6B3C280EE5FF005E6306 /* LaunchScreen.storyboard */,
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B1D6B36280EE5FD005E6306 /* ViewController.swift in Sources */,
+				2B1D6B46280EEDC6005E6306 /* Creatures.swift in Sources */,
+				2B1D6B36280EE5FD005E6306 /* ListViewController.swift in Sources */,
+				2B1D6B4A280F3A8B005E6306 /* Creature.swift in Sources */,
+				2B1D6B48280F352D005E6306 /* DetailViewController.swift in Sources */,
+				2B1D6B4C280F4297005E6306 /* CreatureDetail.swift in Sources */,
 				2B1D6B32280EE5FD005E6306 /* AppDelegate.swift in Sources */,
 				2B1D6B34280EE5FD005E6306 /* SceneDelegate.swift in Sources */,
 			);
